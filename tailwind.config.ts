@@ -67,6 +67,9 @@ export default {
 				sans: ['Inter', 'system-ui', 'sans-serif'],
 				display: ['Montserrat', 'system-ui', 'sans-serif']
 			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
