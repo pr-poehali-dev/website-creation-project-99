@@ -67,7 +67,7 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center animate-fade-in-up">
             <div className="inline-block mb-6 px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
-              🚀 Мессенджер нового поколения
+              🚀 Настоящее приложение для всех платформ
             </div>
             <h1 className="font-display text-5xl md:text-7xl font-bold mb-6 leading-tight">
               Скачайте приложение
@@ -75,7 +75,7 @@ const Index = () => {
               <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">MAX</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
-              Общайтесь с близкими, работайте в командах и используйте сотни мини-приложений — всё в одном месте
+              Настоящий мессенджер для телефонов и компьютеров. Работайте, общайтесь и используйте мини-приложения на любом устройстве
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -90,7 +90,7 @@ const Index = () => {
             </div>
 
             <div className="text-sm text-muted-foreground">
-              Доступно на iOS, Android и Desktop
+              ✅ Доступно на iOS, Android, Windows, macOS и Linux
             </div>
           </div>
 
@@ -154,10 +154,10 @@ const Index = () => {
           <Card className="p-12 md:p-16 bg-gradient-to-br from-primary to-purple-600 text-white border-0 shadow-2xl animate-scale-in">
             <div className="text-center">
               <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
-                Начните использовать MAX прямо сейчас
+                Скачайте настоящий MAX прямо сейчас
               </h2>
               <p className="text-xl text-white/90 mb-10 max-w-2xl mx-auto">
-                Присоединяйтесь к миллионам пользователей по всему миру
+                Работает на всех компьютерах и телефонах. Присоединяйтесь к миллионам пользователей!
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
@@ -171,18 +171,26 @@ const Index = () => {
                 </Button>
               </div>
 
-              <div className="flex justify-center gap-6 text-sm text-white/80">
-                <div className="flex items-center gap-2">
-                  <Icon name="Monitor" size={16} />
-                  Windows
+              <div className="grid grid-cols-2 md:grid-cols-5 gap-4 max-w-2xl mx-auto text-sm text-white/90">
+                <div className="flex flex-col items-center gap-2 p-3 bg-white/10 rounded-lg">
+                  <Icon name="Monitor" size={20} />
+                  <span>Windows</span>
                 </div>
-                <div className="flex items-center gap-2">
-                  <Icon name="Apple" size={16} />
+                <div className="flex flex-col items-center gap-2 p-3 bg-white/10 rounded-lg">
+                  <Icon name="Apple" size={20} />
                   macOS
                 </div>
-                <div className="flex items-center gap-2">
-                  <Icon name="Globe" size={16} />
-                  Web
+                <div className="flex flex-col items-center gap-2 p-3 bg-white/10 rounded-lg">
+                  <Icon name="Terminal" size={20} />
+                  Linux
+                </div>
+                <div className="flex flex-col items-center gap-2 p-3 bg-white/10 rounded-lg">
+                  <Icon name="Smartphone" size={20} />
+                  Android
+                </div>
+                <div className="flex flex-col items-center gap-2 p-3 bg-white/10 rounded-lg">
+                  <Icon name="Smartphone" size={20} />
+                  iOS
                 </div>
               </div>
             </div>
@@ -195,12 +203,12 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in-up">
               <div className="text-sm font-medium text-primary mb-4">О ПРИЛОЖЕНИИ</div>
-              <h2 className="font-display text-4xl font-bold mb-6">MAX — больше, чем мессенджер</h2>
+              <h2 className="font-display text-4xl font-bold mb-6">MAX — настоящее приложение для всех</h2>
               <p className="text-muted-foreground mb-4 leading-relaxed text-lg">
-                MAX — это экосистема для общения, работы и развлечений. Мы создали платформу, которая объединяет всё необходимое в одном приложении.
+                MAX — это настоящий мессенджер, который работает на всех компьютерах (Windows, macOS, Linux) и телефонах (iOS, Android). Установите один раз и пользуйтесь на любом устройстве.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed text-lg">
-                От простых текстовых сообщений до мини-приложений для заказа еды, бронирования отелей и оплаты услуг — MAX делает вашу цифровую жизнь проще.
+                От простых чатов до мини-приложений для заказа еды, такси и оплаты услуг — всё в одном месте. Синхронизация между всеми вашими устройствами.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
@@ -251,8 +259,9 @@ const Index = () => {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li><a href="#" className="hover:text-foreground transition-colors">iOS приложение</a></li>
                 <li><a href="#" className="hover:text-foreground transition-colors">Android приложение</a></li>
-                <li><a href="#" className="hover:text-foreground transition-colors">Desktop версия</a></li>
-                <li><a href="#" className="hover:text-foreground transition-colors">Web версия</a></li>
+                <li><a href="#" className="hover:text-foreground transition-colors">Windows версия</a></li>
+                <li><a href="#" className="hover:text-foreground transition-colors">macOS версия</a></li>
+                <li><a href="#" className="hover:text-foreground transition-colors">Linux версия</a></li>
               </ul>
             </div>
             <div>
